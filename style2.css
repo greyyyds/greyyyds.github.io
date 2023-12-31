@@ -1,0 +1,79 @@
+.header ul {
+    list-style: none;
+    background: black;
+    text-align: end;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    background: black;
+    display: block;
+    padding: 20px 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+ul li a:hover {
+    color: rgb(98, 106, 255);
+}
+
+#active {
+    color: rgb(107, 114, 250);
+} 
+body {
+    background: #000000;
+  }
+
+  .bd{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 10;
+      color: aliceblue;
+    }
+  
+    video {
+      margin-left: 220px;
+      max-width: 100%;
+      height: 500px;
+    }
+    h3 {
+      color: aliceblue ;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      font-size: 8;
+    }
+  
+    h2 {
+      color: aliceblue ;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      font-size: 8;
+    }
+  
+    p {
+      color: aliceblue ;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      font-size: 8;
+    }
+  
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .message{
+      height:150px;
+    }
